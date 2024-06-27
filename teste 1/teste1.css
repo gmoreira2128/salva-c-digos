@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 4px;
+    border-radius: 8px;
+}
+
+.topo{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: blue;
+}
+
+.topo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    position: relative;
+}
+
+.btn-menu{
+    position: absolute;
+    border: none;
+    top: 20px;
+    left: 20px;
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bx-menu{
+    position: absolute;
+    font-size: xx-large;
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    top: 30%;
+}
+
+.bx-menu:hover{
+    transition: 8ms;
+    color: black;
+}
+
+.btn-2{
+    position: absolute;
+    border: 2px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    top: 60%;
+    left: 45%;
+}
+
+.btn-2:hover{
+    transition: 8ms;
+    background-color: black;
+    color: white;
+}
+
+input{
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+    color: black;
+    font-size: medium;
+    flex-direction: column;
+    top: 50%;
+    left: 40%;
+    padding: 15px;
+}
+
+input::placeholder{
+    color: black;
+}
+
+.Log-in{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.Log-in #email-login{
+    border-radius: 8px;
+    top: 40%;
+}
+
+.Log-in #mensage-sucess{
+    color: white;
+}
+
+.mensagens{
+    position: absolute;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    top: 70%;
+    left: 43%;
+}
+
+.rodape{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    top: 90%;
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+}
+
+.rodape a{
+    top: 40px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape a:hover{
+    transition: 8ms;
+    text-decoration: underline;
+    color: black;
+}

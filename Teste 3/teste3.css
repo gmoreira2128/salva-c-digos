@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(224, 221, 221);
+}
+
+.topo {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    padding: 30px;
+}
+
+.topo h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: large;
+    color: black;
+    left: 5px;
+    top: 20px;
+}
+
+.topo p {
+    border: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background-color: red;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo #num {
+    position: absolute;
+    top: 2%;
+    left: 90px;
+}
+
+.topo a {
+    left: 40%;
+    position: relative;
+    font-size: small;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.topo a:hover {
+    transition: 8ms;
+    text-decoration: underline;
+    color: blue;
+}
+
+.btn {
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    top: 5px;
+    left: 90%;
+    background: transparent;
+    cursor: pointer;
+}
+
+#btn-Sign-in {
+    position: absolute;
+    left: 80%;
+}
+
+.btn:hover {
+    border: 2px;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    background-color: rgb(204, 202, 202);
+    text-align: center;
+}
+
+.container h1 {
+    position: absolute;
+    text-align: left;
+    top: 35%;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 10%;
+}
+
+.more-feature {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: rotate(90deg, left);
+    font-size: small;
+    color: black;
+}
+
+.primeiro-texto {
+    position: absolute;
+    left: 10%;
+    top: 48%;
+}
+
+.segundo-texto {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+input {
+    position: absolute;
+    top: 72%;
+    left: 10%;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+}
+
+.Inscreva-se {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(230, 17, 230);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.cad {
+    position: fixed; /* Para que a div fique sempre visível no centro da tela */
+    color: white;
+    width: 360px;
+    height: auto; /* Ajuste automático da altura */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Centralizar a div */
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background: linear-gradient(45deg, purple, blue);
+    text-align: center;
+    display: none; /* Inicialmente escondido */
+    padding: 20px; /* Adicionar padding para espaço interno */
+}
+
+.cad input {
+    width: 80%; /* Ajustar largura dos inputs */
+    height: 40px;
+    margin-bottom: 15px; /* Espaço entre os inputs */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background: transparent;
+    color: white;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.cad input::placeholder {
+    color: white;
+}
+
+.btn-cad {
+    width: 80%; /* Ajustar largura do botão */
+    height: 40px;
+    margin-top: 20px; /* Espaço acima do botão */
+    background-color: #ff4081; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-cad:hover{
+    transition: all ease-in-out, 8ms;
+    background-color: purple;
+}
+
+.Log{
+    position: fixed; /* Para que a div fique sempre visível no centro da tela */
+    color: white;
+    width: 360px;
+    height: auto; /* Ajuste automático da altura */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Centralizar a div */
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background: linear-gradient(45deg, purple, blue);
+    text-align: center;
+    display: none; /* Inicialmente escondido */
+    padding: 20px; /* Adicionar padding para espaço interno */
+}
+
+.Log input{
+    width: 80%; /* Ajustar largura dos inputs */
+    height: 40px;
+    margin-bottom: 15px; /* Espaço entre os inputs */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background: transparent;
+    color: white;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+.btn-log{
+    width: 80%; /* Ajustar largura do botão */
+    height: 40px;
+    margin-top: 20px; /* Espaço acima do botão */
+    background-color: #ff4081; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;   
+}
+
+.btn-log:hover{
+    transition: 8ms;
+    background-color: purple;   
+}
