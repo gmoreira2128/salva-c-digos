@@ -127,12 +127,19 @@ input {
     color: white;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.Inscreva-se:hover{
+    transition: all 8ms;
+    color: black;
+    background-color: rgb(224, 221, 221);
 }
 
 .cad {
     position: fixed; /* Para que a div fique sempre visível no centro da tela */
     color: white;
-    width: 360px;
+    width: 360px;   
     height: auto; /* Ajuste automático da altura */
     left: 50%;
     top: 50%;
