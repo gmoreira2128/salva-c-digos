@@ -96,15 +96,6 @@ body {
     left: 10%;
 }
 
-.more-feature {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: rotate(90deg, left);
-    font-size: small;
-    color: black;
-}
-
 .primeiro-texto {
     position: absolute;
     left: 10%;
