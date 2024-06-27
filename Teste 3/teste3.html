@@ -8,9 +8,15 @@
 </head>
 <body>
     <header class="topo">
-        <h3>Interface</h3><p id="num">2</p>
-        <a href="#" id="Pricing">Preços</a>
-        <a href="#" id="Features">Caracteristicas</a>
+        <h3>Interface</h3>
+        <p class="p-1" id="num">2</p>
+        <a href="#" id="Pricing">Preços
+            <p id="PRECO">R$ 450,00</p>
+            <p id="PRECO">R$ 200,00</p>
+            <p id="PRECO">R$ 375,00</p>
+            <p id="PRECO">R$ 150,00</p>
+        </a>
+        <a href="#" id="Features">Características</a>
         <a href="#" id="Suporte">Suporte</a>
         <a href="#" id="Blog">Sobre</a>
         <button class="btn" id="btn-Sign-in">Sign-in</button>
@@ -18,22 +24,19 @@
     </header>
 
     <div class="container">
-        <h1>Interface<br> 
-        Dashboard</h1>
-
-        <p class="primeiro-texto">A modern and minimal style for you next Dashboard Project</p>
+        <h1>Interface<br>Dashboard</h1>
+        <p class="primeiro-texto">A modern and minimal style for your next Dashboard Project</p>
         <p class="segundo-texto">🎉 Join the newsletter and get 2 months <br>free with full access</p>
-
         <input type="email" placeholder="Email address" required>
         <button class="Inscreva-se">Subscribe</button>
     </div>
 
     <div class="cad">
         <h1>Cadastre-se</h1>
-        <input type="text" placeholder="Nome" required>
-        <input type="text" placeholder="Sobrenome" required>
-        <input type="email" placeholder="Email" required>
-        <input type="password" placeholder="Senha" required>
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="text" id="sob-nome" placeholder="Sobrenome" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="senha" placeholder="Senha" required>
         <input type="number" id="CPF" placeholder="CPF" required>
         <button class="btn-cad" id="btn-cadastro">Cadastre-se</button>
     </div>
@@ -41,9 +44,15 @@
     <div class="Log">
         <h1>Faça seu Login</h1>
         <input type="email" placeholder="Email" id="email-cliente" required>
-        <input type="password" placeholder="Password"  id="password-cliente" required>
+        <input type="password" placeholder="Password" id="password-cliente" required>
         <button class="btn-log">Log-in</button>
     </div>
+
+    <footer class="footer">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </footer>
 
     <script src="teste3.js"></script>
 </body>
